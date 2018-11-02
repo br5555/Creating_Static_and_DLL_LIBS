@@ -1,0 +1,8 @@
+Open developer Command Prompt
+notepad moo.cpp
+notepad Mainer.cpp
+cl /c moo.cpp // create .obj (/c stands for only compile)
+lib /out:BrankoLibrary.lib moo.obj (create static .lib)
+cl Mainer.cpp /link BrankoLibrary.lib
+
+poslije nakon se može izbrista i .obj i .lib jer je sve kopirano u .exe

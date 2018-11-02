@@ -1,0 +1,5 @@
+Open developer Command Prompt
+notepad moo.cpp
+notepad Mainer.cpp
+cl /LD /FeMyDinamicLibrary.dll moo.cpp
+cl Mainer.cpp /link MyDinamicLibrary.lib
